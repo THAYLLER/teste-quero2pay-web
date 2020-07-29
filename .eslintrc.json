@@ -32,6 +32,7 @@
     "import/prefer-default-export": "off",
     "@typescript-eslint/no-unused-vars": "off",
     "no-param-reassign": "off",
+    "no-plusplus": "off",
     "prettier/prettier": "error",
     "no-shadow": "off",
     "react-hooks/rules-of-hooks": "error",
