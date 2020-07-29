@@ -62,7 +62,7 @@ const Dashboard: React.FC = () => {
                 <td>
                   <Link to={link}>{employee.name}</Link>
                 </td>
-                <td>R$ {employee.salary}</td>
+                <td>R$ {employee.salary.toFixed(2)}</td>
                 <td>{employee.office.name}</td>
               </tr>
             );

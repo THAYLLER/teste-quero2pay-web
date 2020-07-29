@@ -35,6 +35,9 @@ const NewEmployee: React.SFC = () => {
   const handleSubmit = useCallback(
     async (data: FormData) => {
       data.companyId = user.id;
+      data.salary = Number(String(data.salary).replace(',', '.'));
+
+      console.log(data);
       await api.post('/employee', data);
 
       history.push('/dashboard');

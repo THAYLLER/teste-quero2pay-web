@@ -86,7 +86,7 @@ const Signin: React.FC = () => {
         <Col />
         <Col md="4" />
         <Col md="5">
-          <Button color="success" lg onClick={() => history.push('/signup')}>
+          <Button color="success" onClick={() => history.push('/signup')}>
             Ainda não é cliente? Clique aqui
           </Button>
         </Col>
